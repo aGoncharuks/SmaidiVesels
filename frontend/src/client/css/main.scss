@@ -1,5 +1,5 @@
 /** Material design styles */
-@import '../../../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '../../../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
 
 /* Reset */
 html, body, div {
@@ -16,6 +16,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  background-color: #106cc8;
 }
 
 /* Box-sizing border-box */
@@ -71,4 +72,35 @@ button {
 
 button:hover {
   background-color: #28739e;
+}
+
+/** Material design styles adjustments */
+mat-card {
+  mat-card-header {
+    mat-card-title {
+      font-size: 16px !important;
+    }
+    mat-card-subtitle {
+      font-size: 14px !important;
+    }
+  }
+  mat-card-actions {
+    button:not(:last-child) {
+      margin-right: 20px !important;
+    }
+  }
+}
+
+
+@media(min-width: 1024px) {
+  mat-card {
+    mat-card-header {
+      mat-card-title {
+        font-size: 18px !important;
+      }
+      mat-card-subtitle {
+        font-size: 16px !important;
+      }
+    }
+  }
 }

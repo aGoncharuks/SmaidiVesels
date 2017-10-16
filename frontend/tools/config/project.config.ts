@@ -1,6 +1,7 @@
 import { join } from 'path';
 
 import { SeedConfig } from './seed.config';
+import { ExtendPackages } from './seed.config.interfaces';
 // import { ExtendPackages } from './seed.config.interfaces';
 
 /**
@@ -13,7 +14,7 @@ export class ProjectConfig extends SeedConfig {
 
   constructor() {
     super();
-    // this.APP_TITLE = 'Put name of your app here';
+    this.APP_TITLE = 'Smaidi vesels!';
     // this.GOOGLE_ANALYTICS_ID = 'Your site's ID';
 
     /* Enable typeless compiler runs (faster) between typed compiler runs. */
@@ -42,14 +43,82 @@ export class ProjectConfig extends SeedConfig {
       //{'node_modules/immutable/dist/immutable.js': [ 'Map' ]},
     ];
 
-    // Add packages (e.g. ng2-translate)
-    // let additionalPackages: ExtendPackages[] = [{
-    //   name: 'ng2-translate',
-    //   // Path to the package's bundle
-    //   path: 'node_modules/ng2-translate/bundles/ng2-translate.umd.js'
-    // }];
-    //
-    // this.addPackagesBundles(additionalPackages);
+    /**
+     * Enable SCSS stylesheet compilation.
+     * @type {boolean}
+     */
+    this.ENABLE_SCSS=true;
+
+    /**
+     * Add packages (e.g. ng2-translate)
+     */
+    let additionalPackages: ExtendPackages[] = [
+      {
+        name:'@angular/material',
+        path:'node_modules/@angular/material/bundles/material.umd.js',
+        packageMeta:{
+          defaultExtension: 'js'
+        }
+      },
+      {
+        name: '@angular/cdk',
+        path: 'node_modules/@angular/cdk/bundles/cdk.umd.js'
+      },
+      {
+        name: '@angular/cdk/a11y',
+        path: 'node_modules/@angular/cdk/bundles/cdk-a11y.umd.js'
+      },
+      {
+        name: '@angular/cdk/bidi',
+        path: 'node_modules/@angular/cdk/bundles/cdk-bidi.umd.js'
+      },
+      {
+        name: '@angular/cdk/coercion',
+        path: 'node_modules/@angular/cdk/bundles/cdk-coercion.umd.js'
+      },
+      {
+        name: '@angular/cdk/collections',
+        path: 'node_modules/@angular/cdk/bundles/cdk-collections.umd.js'
+      },
+      {
+        name: '@angular/cdk/keycodes',
+        path: 'node_modules/@angular/cdk/bundles/cdk-keycodes.umd.js'
+      },
+      {
+        name: '@angular/cdk/observers',
+        path: 'node_modules/@angular/cdk/bundles/cdk-observers.umd.js'
+      },
+      {
+        name: '@angular/cdk/overlay',
+        path: 'node_modules/@angular/cdk/bundles/cdk-overlay.umd.js'
+      },
+      {
+        name: '@angular/cdk/platform',
+        path: 'node_modules/@angular/cdk/bundles/cdk-platform.umd.js'
+      },
+      {
+        name: '@angular/cdk/portal',
+        path: 'node_modules/@angular/cdk/bundles/cdk-portal.umd.js'
+      },
+      {
+        name: '@angular/cdk/rxjs',
+        path: 'node_modules/@angular/cdk/bundles/cdk-rxjs.umd.js'
+      },
+      {
+        name: '@angular/cdk/scrolling',
+        path: 'node_modules/@angular/cdk/bundles/cdk-scrolling.umd.js'
+      },
+      {
+        name: '@angular/cdk/table',
+        path: 'node_modules/@angular/cdk/bundles/cdk-table.umd.js'
+      },
+      {
+        name: '@angular/cdk/stepper',
+        path: 'node_modules/@angular/cdk/bundles/cdk-stepper.umd.js'
+      }
+    ];
+
+    this.addPackagesBundles(additionalPackages);
 
     /* Add proxy middleware */
     // this.PROXY_MIDDLEWARE = [

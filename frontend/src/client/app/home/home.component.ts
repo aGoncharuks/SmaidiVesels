@@ -12,9 +12,26 @@ import { NameListService } from '../shared/name-list/name-list.service';
 })
 export class HomeComponent implements OnInit {
 
-  newName: string = '';
-  errorMessage: string;
-  names: any[] = [];
+  public answer: number;
+
+  public options: any[] = [
+    {
+      text: 'Pilnīgi pārliecināts, ka netīrīšu',
+      value: 1
+    },
+    {
+      text: 'Daļēji pārliecināts, ka netīrīšu',
+      value: 2
+    },
+    {
+      text: 'Daļēji pārliecināts, ka tīrīšu',
+      value: 3
+    },
+    {
+      text: 'Pilnīgi pārliecināts, ka tīrīšu',
+      value: 4
+    },
+  ];
 
   /**
    * Creates an instance of the HomeComponent with the injected
@@ -25,32 +42,10 @@ export class HomeComponent implements OnInit {
   constructor(public nameListService: NameListService) {}
 
   /**
-   * Get the names OnInit
+   * On init
    */
   ngOnInit() {
-    this.getNames();
-  }
 
-  /**
-   * Handle the nameListService observable
-   */
-  getNames() {
-    this.nameListService.get()
-      .subscribe(
-        names => this.names = names,
-        error => this.errorMessage = <any>error
-      );
-  }
-
-  /**
-   * Pushes a new name onto the names array
-   * @return {boolean} false to prevent default form submit behavior to refresh the page.
-   */
-  addName(): boolean {
-    // TODO: implement nameListService.post
-    this.names.push(this.newName);
-    this.newName = '';
-    return false;
   }
 
 }

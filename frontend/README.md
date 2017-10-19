@@ -336,9 +336,9 @@ Forks of this project demonstrate how to extend and integrate with other librari
 │       │   │   ├── about.component.e2e-spec.ts
 │       │   │   ├── about.component.html
 │       │   │   ├── about.component.spec.ts
-│       │   │   ├── about.component.ts
-│       │   │   ├── about.module.ts
-│       │   │   └── about-routing.module.ts
+│       │   │   ├── study.component.ts
+│       │   │   ├── study.module.ts
+│       │   │   └── study-routing.module.ts
 │       │   ├── app.component.e2e-spec.ts
 │       │   ├── app.component.html
 │       │   ├── app.component.spec.ts
@@ -350,9 +350,9 @@ Forks of this project demonstrate how to extend and integrate with other librari
 │       │   │   ├── home.component.e2e-spec.ts
 │       │   │   ├── home.component.html
 │       │   │   ├── home.component.spec.ts
-│       │   │   ├── home.component.ts
-│       │   │   ├── home.module.ts
-│       │   │   └── home-routing.module.ts
+│       │   │   ├── survey.component.ts
+│       │   │   ├── survey.module.ts
+│       │   │   └── survey-routing.module.ts
 │       │   ├── i18n.providers.ts
 │       │   ├── main-prod.ts
 │       │   ├── main.ts

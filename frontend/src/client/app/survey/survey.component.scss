@@ -1,0 +1,46 @@
+[container] {
+  margin: 50px auto;
+}
+
+[question-block] {
+  margin-bottom: 5px;
+}
+
+.example-radio-group {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+.example-selected-value {
+  margin: 15px 0;
+}
+
+mat-card-actions {
+  text-align: center;
+}
+
+mat-horizontal-stepper::ng-deep {
+  .mat-step-icon {
+    margin-right: 0;
+  }
+  .mat-step-label {
+    display: none;
+  }
+}
+
+
+
+@media(max-width: 1024px) {
+
+}
+
+@media(min-width: 1024px) {
+  [container] {
+    margin: 200px auto;
+    width: 70%;
+  }
+}

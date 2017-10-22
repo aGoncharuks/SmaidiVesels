@@ -1,0 +1,180 @@
+[
+  [
+    {
+      "title": "Cik bieži Tu tīri savus zobus divas reizes dienā?",
+      "options": [
+        {
+          "title": "Katru dienu",
+          "value": 1
+        },
+        {
+          "title": "3-5 reizes nedēļā",
+          "value": 2
+        },
+        {
+          "title": "1-2 reizes nedēļā",
+          "value": 3
+        },
+        {
+          "title": "Reizēm",
+          "value": 4
+        },
+        {
+          "title": "Nekad",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "title": "Cik ilgi Tu jau tīri zobus pēc norādīta biežuma?",
+      "options": [
+        {
+          "title": "Mazāk par 6 mēnešiem",
+          "value": 1
+        },
+        {
+          "title": "No 6 mēnešiem līdz 1 gadam",
+          "value": 2
+        },
+        {
+          "title": "Vairāk par vienu gadu",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "title": "Cik Tu esi pārliecināts, kā tīrisi zobus sekojošās situācijās? (ar parastu vai elektrisku zobu birsti un zobu pastu)",
+      "subtitle": "Kad esi piekusis vakarā",
+      "options": [
+        {
+          "title": "Pilnīgi pārliecināts, ka netīrīšu",
+          "value": 1
+        },
+        {
+          "title": "Daļēji pārliecināts, ka netīrīšu",
+          "value": 2
+        },
+        {
+          "title": "Daļēji pārliecināts, ka tīrīšu",
+          "value": 3
+        },
+        {
+          "title": "Pilnīgi pārliecināts, ka tīrīšu",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "title": "Cik Tu esi pārliecināts, kā tīrisi zobus sekojošās situācijās? (ar parastu vai elektrisku zobu birsti un zobu pastu)",
+      "subtitle": "Kad neplano apmeklēt zobārstu tuvākajā laikā",
+      "options": [
+        {
+          "title": "Pilnīgi pārliecināts, ka netīrīšu",
+          "value": 1
+        },
+        {
+          "title": "Daļēji pārliecināts, ka netīrīšu",
+          "value": 2
+        },
+        {
+          "title": "Daļēji pārliecināts, ka tīrīšu",
+          "value": 3
+        },
+        {
+          "title": "Pilnīgi pārliecināts, ka tīrīšu",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "title": "Cik Tu esi pārliecināts, kā tīrisi zobus sekojošās situācijās? (ar parastu vai elektrisku zobu birsti un zobu pastu)",
+      "subtitle": "Kad esi brīvdienās",
+      "options": [
+        {
+          "title": "Pilnīgi pārliecināts, ka netīrīšu",
+          "value": 1
+        },
+        {
+          "title": "Daļēji pārliecināts, ka netīrīšu",
+          "value": 2
+        },
+        {
+          "title": "Daļēji pārliecināts, ka tīrīšu",
+          "value": 3
+        },
+        {
+          "title": "Pilnīgi pārliecināts, ka tīrīšu",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "title": "Cik Tu esi pārliecināts, kā tīrisi zobus sekojošās situācijās? (ar parastu vai elektrisku zobu birsti un zobu pastu)",
+      "subtitle": "Kad esi stipri noslogots",
+      "options": [
+        {
+          "title": "Pilnīgi pārliecināts, ka netīrīšu",
+          "value": 1
+        },
+        {
+          "title": "Daļēji pārliecināts, ka netīrīšu",
+          "value": 2
+        },
+        {
+          "title": "Daļēji pārliecināts, ka tīrīšu",
+          "value": 3
+        },
+        {
+          "title": "Pilnīgi pārliecināts, ka tīrīšu",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "title": "Cik Tu esi pārliecināts, kā tīrisi zobus sekojošās situācijās? (ar parastu vai elektrisku zobu birsti un zobu pastu)",
+      "subtitle": "Kad Tev ir galvassāpes",
+      "options": [
+        {
+          "title": "Pilnīgi pārliecināts, ka netīrīšu",
+          "value": 1
+        },
+        {
+          "title": "Daļēji pārliecināts, ka netīrīšu",
+          "value": 2
+        },
+        {
+          "title": "Daļēji pārliecināts, ka tīrīšu",
+          "value": 3
+        },
+        {
+          "title": "Pilnīgi pārliecināts, ka tīrīšu",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "title": "Cik Tu esi pārliecināts, kā tīrisi zobus sekojošās situācijās? (ar parastu vai elektrisku zobu birsti un zobu pastu)",
+      "subtitle": "Kad Tev ir slikta pašsajūta",
+      "options": [
+        {
+          "title": "Pilnīgi pārliecināts, ka netīrīšu",
+          "value": 1
+        },
+        {
+          "title": "Daļēji pārliecināts, ka netīrīšu",
+          "value": 2
+        },
+        {
+          "title": "Daļēji pārliecināts, ka tīrīšu",
+          "value": 3
+        },
+        {
+          "title": "Pilnīgi pārliecināts, ka tīrīšu",
+          "value": 4
+        }
+      ]
+    }
+  ]
+]

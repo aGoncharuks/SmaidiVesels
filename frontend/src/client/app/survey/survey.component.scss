@@ -24,7 +24,8 @@ mat-card-actions {
 }
 
 mat-horizontal-stepper::ng-deep {
-  .mat-step-icon {
+  .mat-step-icon,
+  .mat-step-icon-not-touched {
     margin-right: 0;
   }
   .mat-step-label {
@@ -32,7 +33,29 @@ mat-horizontal-stepper::ng-deep {
   }
 }
 
+button {
+  transition: all 0.4s;
 
+  &[disabled] {
+    pointer-events: none;
+    background-color: rgba(0,0,0,.12);
+    color: rgba(0,0,0,.38);
+  }
+
+  &[submit-button] {
+    background-color: #fff;
+    color: #000;
+    margin: 20px auto;
+    display: block;
+
+    &:hover {
+      background-color: #ff4081;
+      color: #fff;
+    }
+  }
+
+
+}
 
 @media(max-width: 1024px) {
 
@@ -41,6 +64,6 @@ mat-horizontal-stepper::ng-deep {
 @media(min-width: 1024px) {
   [container] {
     margin: 200px auto;
-    width: 70%;
+    width: 60%;
   }
 }

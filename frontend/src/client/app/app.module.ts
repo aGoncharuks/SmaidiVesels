@@ -9,6 +9,7 @@ import { StudyModule } from './study/study.module';
 import { SurveyModule } from './survey/survey.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/material.module';
+import { UrlService } from './shared/url.service';
 
 @NgModule({
   imports: [BrowserModule,
@@ -20,10 +21,13 @@ import { MaterialModule } from './shared/material.module';
     MaterialModule
   ],
   declarations: [AppComponent],
-  providers: [{
-    provide: APP_BASE_HREF,
-    useValue: '<%= APP_BASE %>'
-  }],
+  providers: [
+    {
+      provide: APP_BASE_HREF,
+      useValue: '<%= APP_BASE %>'
+    },
+    UrlService
+  ],
   bootstrap: [AppComponent]
 
 })

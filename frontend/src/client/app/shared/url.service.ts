@@ -6,4 +6,6 @@ export class UrlService {
 	public apiPort: string = ':8888';
 	public getQuestionsUrl: string = this.apiUrl + this.apiPort + '/get/questions';
 	public getSaveAnswersUrl: string =  this.apiUrl + this.apiPort + '/save/answers';
+	public getStudyContentUrl: string =  this.apiUrl + this.apiPort + '/get/study/content';
+	public getSchoolsUrl: string =  this.apiUrl + this.apiPort + '/get/schools';
 }

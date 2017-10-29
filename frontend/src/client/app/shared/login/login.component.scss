@@ -1,0 +1,30 @@
+[login-form] {
+  margin: 0 auto;
+}
+
+[form-header] {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px auto 20px auto;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+[form-actions] {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+@media(min-width: 1024px) {
+  [login-form] {
+    width: 60%;
+  }
+
+  [form-header] {
+    font-size: 18px;
+    margin: 10px auto 40px auto;
+  }
+}

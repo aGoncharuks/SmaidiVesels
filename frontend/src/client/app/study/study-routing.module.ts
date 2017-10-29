@@ -5,7 +5,7 @@ import { StudyComponent } from './study.component';
 @NgModule({
   imports: [
     RouterModule.forChild([
-      { path: 'about', component: StudyComponent }
+      { path: 'study/:id', component: StudyComponent }
     ])
   ],
   exports: [RouterModule]

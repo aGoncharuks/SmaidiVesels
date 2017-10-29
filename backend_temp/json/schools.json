@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Rīgas 45. vidusskola",
+    "groups": [
+      {
+        "id": 1,
+        "name": "5A",
+        "students": [
+          {
+            "name": "Māris Upītis",
+            "id": 1
+          },
+          {
+            "name": "Jānis Skujnieks",
+            "id": 2
+          },
+          {
+            "name": "Martiņš Eglītis",
+            "id": 3
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "5B",
+        "students": [
+          {
+            "name": "Eriks Abols",
+            "id": 4
+          },
+          {
+            "name": "Ansis Kurnjakovs",
+            "id": 5
+          },
+          {
+            "name": "Pēteris Skudra",
+            "id": 6
+          },
+          {
+            "name": "Miks Indrašis",
+            "id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Rīgas Purvciema Ģimnāzija",
+    "groups": [
+      {
+        "id": 3,
+        "name": "5B",
+        "students": [
+          {
+            "name": "Gints Upenieks",
+            "id": 8
+          },
+          {
+            "name": "Valerijs Krūmiņš",
+            "id": 9
+          },
+          {
+            "name": "Māra Eglīte",
+            "id": 10
+          },
+          {
+            "name": "Eriks Abols",
+            "id": 11
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "5C",
+        "students": [
+          {
+            "name": "Artjoms Lapiņš",
+            "id": 12
+          },
+          {
+            "name": "Gints Meija",
+            "id": 13
+          },
+          {
+            "name": "Jānis Kalniņš",
+            "id": 14
+          }
+        ]
+      }
+    ]
+  }
+]

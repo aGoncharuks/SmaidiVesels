@@ -1,4 +1,5 @@
-<div container *ngIf="questions">
+<div container *ngIf="student && questions">
+  <mat-toolbar>Lūdzu atbildi uz visiem jautājumiem!</mat-toolbar>
   <form [formGroup]="answerForm" (submit)="submitAnswers()">
     <mat-expansion-panel question-block *ngFor="let questionBlock of questions; index as questionBlockIndex; last as lastQuestionBlock">
       <mat-expansion-panel-header>

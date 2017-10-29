@@ -1,0 +1,36 @@
+[login-form] {
+  margin: 0 auto;
+}
+
+[form-header] {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px auto 20px auto;
+}
+
+[form-text] {
+  font-size: 15px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+[form-actions] {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+@media(min-width: 1024px) {
+  [login-form] {
+    width: 60%;
+  }
+
+  [form-header] {
+    font-size: 22px;
+    margin: 10px auto 40px auto;
+  }
+
+  [form-text] {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,21 @@
+<form *ngIf="schools && loginForm" login-form [formGroup]="loginForm">
+  <div form-header>Lūdzu izvēlies savu skolu, klasi un vārdu!</div>
+  <mat-form-field>
+    <mat-select placeholder="Skola" formControlName="school">
+      <mat-option *ngFor="let school of schools" [value]="school">{{school.name}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field *ngIf="loginForm.controls['school'].valid">
+    <mat-select placeholder="Klase" formControlName="group">
+      <mat-option *ngFor="let group of loginForm.value['school']['groups']" [value]="group">{{group.name}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field *ngIf="loginForm.controls['group'].valid">
+    <mat-select placeholder="Skolnieks" formControlName="student">
+      <mat-option *ngFor="let student of loginForm.value['group']['students']" [value]="student">{{student.name}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <div form-actions>
+    <button *ngIf="loginForm.valid" [mat-dialog-close]="loginForm.value['student']"  mat-raised-button>Turpināt</button>
+  </div>
+</form>

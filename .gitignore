@@ -57,6 +57,9 @@ typings/
 # dotenv environment variables file
 .env
 
-#IDE configuration files
+# IDE configuration files
 .idea
 *.iml
+
+# Other
+bash.exe.stackdump

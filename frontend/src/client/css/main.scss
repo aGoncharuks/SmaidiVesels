@@ -73,37 +73,3 @@ button {
 button:hover {
   background-color: #28739e;
 }
-
-/** Material design styles adjustments */
-mat-card {
-  mat-card-header {
-    mat-card-title {
-      font-size: 16px !important;
-    }
-    mat-card-subtitle {
-      font-size: 14px !important;
-    }
-  }
-  mat-card-actions {
-    button:not(:last-child) {
-      margin-right: 20px !important;
-    }
-  }
-}
-
-mat-dialog-container {
-  margin: 0 auto;
-}
-
-@media(min-width: 1024px) {
-  mat-card {
-    mat-card-header {
-      mat-card-title {
-        font-size: 18px !important;
-      }
-      mat-card-subtitle {
-        font-size: 16px !important;
-      }
-    }
-  }
-}
